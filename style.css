@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #f4f4f4;
+    background-color: #121212;
+}
+
+header {
+    background: #1f1f1f;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 2px solid #00adb5;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #00adb5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+}
+
+.grid-servicios {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: #252525;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    width: 250px;
+    text-align: center;
+}
+
+button {
+    background: #00adb5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
